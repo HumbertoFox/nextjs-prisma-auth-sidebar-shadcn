@@ -72,7 +72,7 @@ export default function DeleteUser({
                                     />
                                     <button
                                         type="button"
-                                        title={showPassword ? "Ocultar senha" : "Mostrar senha"}
+                                        title={showPassword ? "Hide password" : "Show password"}
                                         onClick={toggleShowPassword}
                                         className="btn-icon-toggle"
                                     >
